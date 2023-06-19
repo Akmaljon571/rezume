@@ -1,0 +1,169 @@
+
+/* raleway-200 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+         url('../fonts/raleway-v28-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v28-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* raleway-300 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/raleway-v28-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v28-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* raleway-regular - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v28-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* raleway-500 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/raleway-v28-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v28-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* raleway-600 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/raleway-v28-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v28-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+*{
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+svg{
+    border-radius: 8px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+
+.top_img{
+    border-radius: 50%;
+    box-shadow: 0 7px 10px rgba(50,50,93,.1),0 3px 4px rgba(0,0,0,.06);
+}
+
+.top_title{
+    color: #303066;
+    font-weight: 400;
+    margin-top: -30px;
+    margin-bottom: 0;
+}
+
+.top_location{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 110px;
+    border: 2px solid #7979ff;
+    padding: 6px 10px;
+    color:#7979ff;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.top_bio{
+    display: block;
+    color: #7373aa;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.list{
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.item{
+    width: 100%;
+    padding: 0;
+    border-radius: 16px;
+    padding: 10px 20px;
+    position: relative;
+    box-shadow: 0 7px 10px rgba(50,50,93,.1),0 3px 4px rgba(0,0,0,.06);
+}
+
+.blue{
+    background-color: #007bb5;
+    color: #fff;
+}
+
+.item_link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.item_hr{
+    width: 0;
+    height: 70px;
+    border: none;
+    border-left: 0.5px solid rgba(0,0,0,.1);
+    display: block;
+    position: absolute;
+    left: 70px;
+}
+
+.twitter{
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+.git{
+    background-color: #333;
+    color: #fff;
+}
+
+.tg{
+    background-color: #08c;
+    color: #fff;
+}
+
+.tube{
+    background-color: red;
+    color: #fff;
+}
